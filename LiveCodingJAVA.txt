@@ -1,0 +1,39 @@
+*Main class*
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner (System.in);
+		System.out.print("Ingresa el numero de Mangos: \n");
+		int mango = in.nextInt();
+		System.out.println("Ingresa el numero de Naranjas: ");
+		int naranja = in.nextInt();
+		
+		for (int i = naranja; i < mango; i++) {
+			for (int j = mango; j < naranja; j++) {
+				
+				
+			}
+			System.out.println(mango + " Mangos");
+			System.out.println(naranja + " Naranjas");
+		}
+		//ArrayList<String> frutas = new ArrayList<String>() 
+		//frutas frutas = new frutas(Integer mangos,naranjas);
+		
+	}
+
+}
+
+
+*CLASE MangosNaranjas*
+
+package defac;
+
+public class MangosNaranjas implements Main{
+		public void consultor (int mango, int naranja){
+			
+		}
+}
